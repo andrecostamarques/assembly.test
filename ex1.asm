@@ -79,6 +79,7 @@ main proc
     MOV AH,02
     MOV DL,BL ;printando o menor numero
     INT 21H
+    
     MOV AH,02
     MOV DL,10   ;pulando linha
     INT 21H
